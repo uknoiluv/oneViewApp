@@ -9,5 +9,13 @@ app.controller('oneviewController', function($scope, $http){
   }).error(function(data, status){
     console.log('data', data, 'status', status);
   });
+});
 
+app.directive('myTemp', function(){
+  return {
+    templateUrl: 'item.html',
+    link: function(scope, elem, attrs){
+      
+    }
+  }
 });
