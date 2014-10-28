@@ -1,0 +1,28 @@
+
+.outer {
+  height: 200px;
+  width: 500px;
+  background: gray;
+}
+
+.inner1 {
+  float: left;
+  height: 70%;
+  width: 30%;
+  background: yellow;  
+}
+
+.inner2 {
+  float: left;
+  height: 70%;
+  width: 70%;  
+  background: brown;    
+}
+
+.inner3 {
+  float: left;  
+  height: 30%;
+  width: 100%;
+  background: red;    
+}
+
