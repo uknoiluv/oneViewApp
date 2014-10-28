@@ -1,28 +1,44 @@
 
+
+.defaultPhoto {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+
 .outer {
+  overflow: hidden;
+  /*max-width: 100%;*/
+  /*max-height: 100%;*/
+  /*background: gray;*/
+  position: relative;
   height: 200px;
   width: 500px;
-  background: gray;
+  border-radius: 20px;
+  border: 1px solid black;
 }
 
 .inner1 {
+  /*overflow: hidden;*/  
   float: left;
+  /*display: block;*/
   height: 70%;
-  width: 30%;
-  background: yellow;  
+  width: 40%;
 }
 
 .inner2 {
+  /*overflow: hidden;*/
   float: left;
+  /*display: block;*/
   height: 70%;
-  width: 70%;  
-  background: brown;    
+  width: 60%;  
 }
 
 .inner3 {
+  /*overflow: hidden;*/
   float: left;  
+  /*display: inline;*/
   height: 30%;
   width: 100%;
-  background: red;    
 }
 
