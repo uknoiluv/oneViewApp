@@ -1,0 +1,10 @@
+
+{
+  "name": "mytime",
+  "version": "0.0.0",
+  "description": "mytime frontend exercise",
+  "main": "server.js",
+  "dependencies": {
+    "express": "4.9.5"
+  }
+}

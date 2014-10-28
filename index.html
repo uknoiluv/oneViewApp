@@ -1,53 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="oneview">
   <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0/angular.min.js"></script>
+    <script src="app.js"></script>
   </head>
   <body>
+    <div class="container">
+    </div>
   </body>
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-  <!-- <script id="script" src="https://www.mytime.com/api/v1/deals.json?what=Massage&when=Anytime&where=34.052200,-118.242800"></script> -->
-  <script>
-
-
-    // var jsonpRequest = function(url, callback) {
-    //   window.callback = callback;
-    //   var elem = document.createElement("script");
-    //   // console.log(elem);
-    //   elem.setAttribute("type", "application/javascript");
-    //   // elem.setAttribute("jsonp", url + "?callback=callback");
-    //   elem.setAttribute("src", url + "?callback=callback");
-    //   // console.log(document.getElementsByTagName("head"));
-    //   document.head.appendChild(elem);
-    //   // callback(parseResoponse);
-    // };
-
-    // jsonpRequest('https://www.mytime.com/api/v1/deals.json?what=Massage&when=Anytime&where=34.052200,-118.242800', function(data){
-    //   console.log('asfsdfsadfasf');
-    //   console.log('data', data);
-    // });
-
-    $.ajax({
-      url: 'https://www.mytime.com/api/v1/deals.json?what=Massage&when=Anytime&where=34.052200,-118.242800',
-      // url: 'https://api2.healthline.com/api/service/2.0/slideshow/content?partnerId=7eef498c-f7fa-4f7c-81fd-b1cc53ac7ebc&contentid=17103&includeLang=en',
-      type: 'GET',
-      // dataType: 'text',
-      dataType: 'jsonp',
-      // dataType: 'jsonp',
-      // xhrFields: {
-      //   withCrendentials: true
-      // },
-      // contentType: 'application/json',
-      success: function(data, string, x){
-        console.log(data);
-        console.log(string);
-        console.log(x);
-      },
-      error: function(data, status, error){
-        console.log('data', data);
-        console.log('status', status);
-        console.log('error', error);
-        console.log('failed');
-      }
-    });
-  </script>
 </html>
