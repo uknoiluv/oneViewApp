@@ -1,5 +1,3 @@
-/* #BF1E2E */
-
 
 .defaultPhoto {
   max-width: 100%;
@@ -14,71 +12,39 @@
 
 .outer {
   overflow: hidden;
-  margin: 10px 15px 0 15px;
+  margin: 10px 15px 10px 15px;
   width: 288px;
   height: 100%;
-  /*background: gray;*/
   position: relative;
-  /*height: 160px;
-  width: 450px;*/
   border-radius: 10px;
   border: 1px solid #CCCCCC;
   background-color: white;
 }
 
-.firstRow {
-  max-width: 100%;
-  max-height: 100%;
-}
-
 .inner1 {
-  /*overflow: hidden;*/  
   float: left;
-  /*display: block;*/
-  /*height: 70%;*/
   height: 70px; 
   width: 40%;
 }
 
 .inner2 {
-  /*overflow: hidden;*/
   float: left;
-  /*display: block;*/
-  /*height: 70%;*/
   height: 68px;
   width: 60%;
   border-bottom: 1px solid gray;
 }
 
-.secondRow {
-  /*height: 100%;
-  width: 100%;*/
-  max-width: 100%;
-  max-height: 100%;
-}
-
 .inner3 {
-  /*overflow: hidden;*/
   float: left;  
-  /*display: inline;*/
   height: 35px;
   width: 100%;
 }
-/*
-.inner4 {
-  float: left;  
-  height: 35px;
-  width: 60%;
-}*/
 
 .sale {
   font-family: Helvetica;
   text-align: center;
-  /*vertical-align: middle;*/
-  /*line-height: 20px*/
   margin-left: 15px;
   margin-top: 5px;
-  /*margin-bottom: 10px;*/
   height: 20px; 
   width: 50px;
   float: right;  
@@ -113,8 +79,6 @@
 }
 
 .yelpLogo {
-  /*margin-top: 5px;*/
-  /*margin-bottom: 10px;*/
   float: left;
 }
 
@@ -130,21 +94,18 @@
   font-family: Helvetica;
   margin: 2px;
   display: inline-block;
-  /*margin-left: 5px;*/
 }
 
 .serviceName {
   font-family: Helvetica;
   display: inline-block;
   margin: 2px;
-  /*margin-left: 5px;*/
 }
 
 .nextAppointment {
   font-family: Helvetica;
   display: inline-block;
   margin: 2px;
-  /*margin-left: 5px;*/
 }
 
 h4 {
@@ -152,7 +113,9 @@ h4 {
 }
 
 .topMargin {
-  height: 5px;
+  float: left;
+  height: 10px;
+  width: 100%;
 }
 
 .filter {
@@ -219,5 +182,5 @@ input {
 
 input[type="text"]
 {
-    font-size: 15px;
+  font-size: 15px;
 }

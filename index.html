@@ -11,13 +11,13 @@
       <div class="inputForm">
         <span class="icon"></span>
         <form>
-          <input type="text" placeholder="Search for a business or service"></input>
+          <input ng-model="searchItem" type="text" placeholder="Search for a business or service"></input>
         </form>
       </div>
       <div class="filter">Filter</div>
       <div class="map">Map</div>
       <div class="topMargin"></div>
-      <div my-temp ng-repeat="item in list" class="outer"></div>
+      <div my-temp ng-repeat="item in list | filter: {$: searchItem}" class="outer"></div>
     </div>
   </body>
 </html>
