@@ -1,3 +1,4 @@
+/* #BF1E2E */
 
 
 .defaultPhoto {
@@ -5,24 +6,37 @@
   max-height: 100%;
 }
 
+.container {
+  width: 320px;
+  height: 100%;
+  background-color: #CCCCCC;
+}
 
 .outer {
   overflow: hidden;
-  /*max-width: 100%;*/
-  /*max-height: 100%;*/
+  margin: 10px 15px 0 15px;
+  width: 288px;
+  height: 100%;
   /*background: gray;*/
   position: relative;
-  height: 200px;
-  width: 500px;
-  border-radius: 20px;
-  border: 1px solid black;
+  /*height: 160px;
+  width: 450px;*/
+  border-radius: 10px;
+  border: 1px solid #CCCCCC;
+  background-color: white;
+}
+
+.firstRow {
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .inner1 {
   /*overflow: hidden;*/  
   float: left;
   /*display: block;*/
-  height: 70%;
+  /*height: 70%;*/
+  height: 70px; 
   width: 40%;
 }
 
@@ -30,15 +44,113 @@
   /*overflow: hidden;*/
   float: left;
   /*display: block;*/
-  height: 70%;
-  width: 60%;  
+  /*height: 70%;*/
+  height: 68px;
+  width: 60%;
+  border-bottom: 1px solid gray;
+}
+
+.secondRow {
+  /*height: 100%;
+  width: 100%;*/
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .inner3 {
   /*overflow: hidden;*/
   float: left;  
   /*display: inline;*/
-  height: 30%;
+  height: 35px;
   width: 100%;
 }
+/*
+.inner4 {
+  float: left;  
+  height: 35px;
+  width: 60%;
+}*/
 
+.sale {
+  font-family: Helvetica;
+  text-align: center;
+  /*vertical-align: middle;*/
+  /*line-height: 20px*/
+  margin-left: 15px;
+  margin-top: 5px;
+  /*margin-bottom: 10px;*/
+  height: 20px; 
+  width: 50px;
+  float: right;  
+  color: white;
+  border-radius: 5px;
+  background-color: #BF1E2E;
+  font-size: 15px;
+}
+
+.minPrice {
+  font-family: Helvetica;
+  float: right;  
+  margin-top: 5px;
+  margin-left: 5px;
+  line-height: 20px;
+}
+
+.maxPrice {
+  font-family: Helvetica;
+  float: right;  
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  line-height: 20px;
+}
+
+.yelpRating {
+  width: 30%;
+  margin-top: 5px;
+  margin-left: 3px;
+  float: left;    
+}
+
+.yelpLogo {
+  /*margin-top: 5px;*/
+  /*margin-bottom: 10px;*/
+  float: left;
+}
+
+.dash {
+  margin-top: 4px;
+  margin-left: 5px;
+  float: right;  
+}
+
+.name {
+  white-space: nowrap;
+  line-height: 90%
+  font-family: Helvetica;
+  margin: 2px;
+  display: inline-block;
+  /*margin-left: 5px;*/
+}
+
+.serviceName {
+  font-family: Helvetica;
+  display: inline-block;
+  margin: 2px;
+  /*margin-left: 5px;*/
+}
+
+.nextAppointment {
+  font-family: Helvetica;
+  display: inline-block;
+  margin: 2px;
+  /*margin-left: 5px;*/
+}
+
+h4 {
+  font-weight: normal;
+}
+
+.topMargin {
+  height: 5px;
+}

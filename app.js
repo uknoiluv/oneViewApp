@@ -14,8 +14,7 @@ app.controller('oneviewController', function($scope, $http){
 app.directive('myTemp', function(){
   return {
     templateUrl: 'item.html',
-    link: function(scope, elem, attrs){
-      
+    link: function(scope, elem, attrs){      
     }
   }
 });
