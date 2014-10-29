@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html ng-app="oneview">
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0/angular.min.js"></script>
+    <script src="app.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    
+    <div class="container" ng-controller="oneviewController">
+      <div class="inputForm">
+        <span class="icon"></span>
+        <form>
+          <input ng-model="searchItem" type="text" placeholder="Search for a business or service"></input>
+        </form>
+      </div>
+      <div class="filter">Filter</div>
+      <div class="map">Map</div>
+      <div class="topMargin"></div>
+      <div my-temp ng-repeat="item in list | filter: {$: searchItem}" class="outer"></div>
+    </div>
+  </body>
+</html>

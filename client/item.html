@@ -1,0 +1,17 @@
+
+<div class="inner1">
+  <img class="defaultPhoto" ng-src="{{item.default_photo_thumb}}"/>
+</div>
+<div class="inner2">
+  <h3 class="name">{{item.name}}</h3>
+  <h4 class="serviceName">{{item.service_name}}</h4>
+  <h4 class="nextAppointment">Next appt {{item.next_appointment_times[0] | date: 'MM/dd/yyyy'}}</h4>
+</div>
+<div class="inner3">
+  <img class="yelpRating" ng-src="{{item.yelp_rating_image_url}}"/>
+  <img class="yelpLogo" src="http://s3-media1.fl.yelpcdn.com/assets/2/www/img/14f29ad24935/map/miniMapLogo.png"/>
+  <div class="maxPrice">{{item.max_price | currency : "$" : 0}}</div>  
+  <div class="dash">-</div>
+  <div class="minPrice">{{item.min_price | currency : "$" : 0}}</div>
+  <div class="sale">SALE</div>
+</div>
