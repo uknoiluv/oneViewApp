@@ -6,7 +6,7 @@ var app = express();
 
 var dataArr = require('./data.js');
 
-app.use(express.static(__dirname));
+app.use(express.static('../client'));
 
 app.get('/', function(req, res){
   res.render('index');
