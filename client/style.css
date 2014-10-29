@@ -5,6 +5,7 @@
 }
 
 .container {
+  font-family: helvetica;
   width: 320px;
   height: 100%;
   background-color: #CCCCCC;
@@ -41,7 +42,6 @@
 }
 
 .sale {
-  font-family: Helvetica;
   text-align: center;
   margin-left: 15px;
   margin-top: 5px;
@@ -55,7 +55,6 @@
 }
 
 .minPrice {
-  font-family: Helvetica;
   float: right;  
   margin-top: 5px;
   margin-left: 5px;
@@ -63,10 +62,9 @@
 }
 
 .maxPrice {
-  font-family: Helvetica;
   float: right;  
   margin-top: 5px;
-  margin-left: 5px;
+  margin-left: 3px;
   margin-right: 5px;
   line-height: 20px;
 }
@@ -84,26 +82,18 @@
 
 .dash {
   margin-top: 4px;
-  margin-left: 5px;
+  margin-left: 3px;
   float: right;  
 }
 
 .name {
   white-space: nowrap;
-  line-height: 90%
-  font-family: Helvetica;
+  line-height: 90%;
   margin: 2px;
   display: inline-block;
 }
 
-.serviceName {
-  font-family: Helvetica;
-  display: inline-block;
-  margin: 2px;
-}
-
-.nextAppointment {
-  font-family: Helvetica;
+.serviceName, .nextAppointment {
   display: inline-block;
   margin: 2px;
 }
@@ -127,7 +117,6 @@ h4 {
   float:left;
   border: 1px solid #CCCCCC;
   background-color: white;
-  font-family: Helvetica;  
   color: #319FB5;
 }
 
@@ -135,7 +124,6 @@ h4 {
   text-align: center;
   vertical-align: middle;
   line-height: 40px; 
-  font-family: Helvetica;
   height: 40px;
   width: 158px;
   float:left;
@@ -145,7 +133,6 @@ h4 {
 }
 
 input { 
-  font-family: Helvetica;
   border-radius: 5px;
   width: 275px;  
   height: 30px;
